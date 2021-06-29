@@ -1,0 +1,67 @@
+
+[
+    {
+        "name": "Powder Puff Lippie",
+        "description": "NYX - puppy love",
+        "date": "10.04.2021",
+        "mhd": "18",
+        "imageName": "nyx_powderpuff_lips.heic",
+        "thumbName": "nyx_powderpuff_lips_tn.heic",
+        "type": "lips"
+    },
+    {
+        "name": "Lipstick",
+        "description": "mac - russian red",
+        "date": "12.03.2021",
+        "mhd": "6",
+        "imageName": "mac_red.heic",
+        "thumbName": "mac_red_tn.heic",
+        "type": "lips"
+    },
+    {
+        "name": "Aok Powder",
+        "description": "Aok Matt und Weg Kompaktpuder",
+        "date": "15.03.2021",
+        "mhd": "12",
+        "imageName": "aok_powder.heic",
+        "thumbName": "aok_powder_tn.heic",
+        "type": "face"
+    },
+    {
+        "name": "Air Volume Mascara",
+        "description": "Loreal mascara",
+        "date": "05.06.2021",
+        "mhd": "6",
+        "imageName": "airvolume_mascara.heic",
+        "thumbName": "airvolume_mascara_tn.heic",
+        "type": "eyes"
+    },
+    {
+        "name": "Mac Concealer",
+        "description": "Mac Studio Finish Concealer",
+        "date": "01.02.2020",
+        "mhd": "24",
+        "imageName": "mac_concealer.heic",
+        "thumbName": "mac_concealer_tn.heic",
+        "type": "face"
+    },
+    {
+        "name": "Push-up liner",
+        "description": "benefit - they're real! push-up liner",
+        "date": "07.05.2020",
+        "mhd": "24",
+        "imageName": "benefit_eyeliner.heic",
+        "thumbName": "benefit_eyeliner_tn.heic",
+        "type": "eyes"
+    },
+    {
+        "name": "Concealer",
+        "description": "alverde concealer",
+        "date": "03.06.2021",
+        "mhd": "24",
+        "imageName": "alverde_concealer.heic",
+        "thumbName": "alverde_concealer_tn.heic",
+        "type": "face"
+    }
+]
+

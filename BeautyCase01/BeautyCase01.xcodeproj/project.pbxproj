@@ -1,0 +1,712 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CD377391B2401AC612BE46A /* Pods_BeautyCase01.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5251A0303AC07B48AC60D70 /* Pods_BeautyCase01.framework */; };
+		90683AC3268A402900A034AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90683AC2268A402900A034AD /* AppDelegate.swift */; };
+		90683AC5268A402900A034AD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90683AC4268A402900A034AD /* SceneDelegate.swift */; };
+		90683AC7268A402900A034AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90683AC6268A402900A034AD /* ViewController.swift */; };
+		90683ACC268A403000A034AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90683ACB268A403000A034AD /* Assets.xcassets */; };
+		90683ACF268A403000A034AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90683ACD268A403000A034AD /* LaunchScreen.storyboard */; };
+		90683AD9268A475400A034AD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 90683AD8268A475300A034AD /* GoogleService-Info.plist */; };
+		90683ADB268A495B00A034AD /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90683ADA268A495B00A034AD /* SignUpViewController.swift */; };
+		90683ADD268A496900A034AD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90683ADC268A496900A034AD /* LoginViewController.swift */; };
+		90683ADF268A497A00A034AD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90683ADE268A497A00A034AD /* HomeViewController.swift */; };
+		90683AE2268A4A1500A034AD /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90683AE0268A4A1500A034AD /* Utilities.swift */; };
+		90683AE3268A4A1500A034AD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90683AE1268A4A1500A034AD /* Constants.swift */; };
+		90683AE8268A4F8A00A034AD /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90683AE6268A4F8A00A034AD /* Product.swift */; };
+		90683AE9268A4F8A00A034AD /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90683AE7268A4F8A00A034AD /* ProductModel.swift */; };
+		90683AEB268A789100A034AD /* products.json in Resources */ = {isa = PBXBuildFile; fileRef = 90683AEA268A789000A034AD /* products.json */; };
+		90683AF0268A7E3600A034AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90683AEE268A7E3500A034AD /* Main.storyboard */; };
+		90683B49268AD91800A034AD /* base.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90683B0E268AD91100A034AD /* base.jpg */; };
+		90683B4A268AD91800A034AD /* sol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90683B0F268AD91100A034AD /* sol.jpg */; };
+		90683B4B268AD91800A034AD /* alverde_concealer.HEIC in Resources */ = {isa = PBXBuildFile; fileRef = 90683B10268AD91100A034AD /* alverde_concealer.HEIC */; };
+		90683B4C268AD91800A034AD /* nudeillusion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90683B11268AD91100A034AD /* nudeillusion.jpg */; };
+		90683B4D268AD91800A034AD /* eyeenhancingmascara.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90683B12268AD91100A034AD /* eyeenhancingmascara.jpg */; };
+		90683B4E268AD91800A034AD /* lashplumping_tn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90683B13268AD91200A034AD /* lashplumping_tn.jpg */; };
+		90683B4F268AD91800A034AD /* nofilterconceler_tn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90683B14268AD91200A034AD /* nofilterconceler_tn.jpg */; };
+		90683B50268AD91800A034AD /* base_tn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90683B15268AD91200A034AD /* base_tn.jpg */; };
+		90683B51268AD91800A034AD /* nofilterpowder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90683B16268AD91200A034AD /* nofilterpowder.jpg */; };
+		90683B52268AD91800A034AD /* nyx_powderpuff_lips.HEIC in Resources */ = {isa = PBXBuildFile; fileRef = 90683B17268AD91200A034AD /* nyx_powderpuff_lips.HEIC */; };
+		90683B53268AD91800A034AD /* mac_concealer_tn.HEIC in Resources */ = {isa = PBXBuildFile; fileRef = 90683B18268AD91200A034AD /* mac_concealer_tn.HEIC */; };
+		90683B54268AD91800A034AD /* camoconcealer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90683B19268AD91300A034AD /* camoconcealer.jpg */; };
+		90683B55268AD91800A034AD /* chasingrainbows_tn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90683B1A268AD91300A034AD /* chasingrainbows_tn.jpg */; };
+		90683B56268AD91800A034AD /* sexypulp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90683B1B268AD91300A034AD /* sexypulp.jpg */; };
+		90683B57268AD91800A034AD /* fortune_tn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90683B1C268AD91300A034AD /* fortune_tn.jpg */; };
+		90683B58268AD91800A034AD /* volumestylist_tn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90683B1D268AD91300A034AD /* volumestylist_tn.jpg */; };
+		90683B59268AD91800A034AD /* geleyepencil_tn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90683B1E268AD91400A034AD /* geleyepencil_tn.jpg */; };
+		90683B5A268AD91800A034AD /* instaperfect.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90683B1F268AD91400A034AD /* instaperfect.jpg */; };
+		90683B5B268AD91800A034AD /* fortune.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90683B20268AD91400A034AD /* fortune.jpg */; };
+		90683B5C268AD91800A034AD /* airvolume_mascara_tn.HEIC in Resources */ = {isa = PBXBuildFile; fileRef = 90683B21268AD91400A034AD /* airvolume_mascara_tn.HEIC */; };
+		90683B5D268AD91800A034AD /* ultrasatin_tn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90683B22268AD91400A034AD /* ultrasatin_tn.jpg */; };
+		90683B5E268AD91800A034AD /* nofilterconceler.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90683B23268AD91400A034AD /* nofilterconceler.jpg */; };
+		90683B5F268AD91800A034AD /* benefit_eyeliner.HEIC in Resources */ = {isa = PBXBuildFile; fileRef = 90683B24268AD91400A034AD /* benefit_eyeliner.HEIC */; };
+		90683B60268AD91800A034AD /* mdmflow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90683B25268AD91400A034AD /* mdmflow.jpg */; };
+		90683B61268AD91800A034AD /* geleyepencil.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90683B26268AD91400A034AD /* geleyepencil.jpg */; };
+		90683B62268AD91800A034AD /* sexypulp_tn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90683B27268AD91500A034AD /* sexypulp_tn.jpg */; };
+		90683B63268AD91800A034AD /* lashplumping.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90683B28268AD91500A034AD /* lashplumping.jpg */; };
+		90683B64268AD91800A034AD /* mar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90683B29268AD91500A034AD /* mar.jpg */; };
+		90683B65268AD91800A034AD /* sol_tn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90683B2A268AD91500A034AD /* sol_tn.jpg */; };
+		90683B66268AD91800A034AD /* longlasting_tn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90683B2B268AD91500A034AD /* longlasting_tn.jpg */; };
+		90683B67268AD91800A034AD /* mar_tn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90683B2C268AD91500A034AD /* mar_tn.jpg */; };
+		90683B68268AD91800A034AD /* Aok_powder.HEIC in Resources */ = {isa = PBXBuildFile; fileRef = 90683B2D268AD91500A034AD /* Aok_powder.HEIC */; };
+		90683B69268AD91800A034AD /* Aok_powder_tn.HEIC in Resources */ = {isa = PBXBuildFile; fileRef = 90683B2E268AD91500A034AD /* Aok_powder_tn.HEIC */; };
+		90683B6A268AD91800A034AD /* benefit_eyeliner_tn.HEIC in Resources */ = {isa = PBXBuildFile; fileRef = 90683B2F268AD91500A034AD /* benefit_eyeliner_tn.HEIC */; };
+		90683B6B268AD91800A034AD /* nofilterpowder_tn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90683B30268AD91600A034AD /* nofilterpowder_tn.jpg */; };
+		90683B6C268AD91800A034AD /* thirsty.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90683B31268AD91600A034AD /* thirsty.jpg */; };
+		90683B6D268AD91800A034AD /* nyx_powderpuff_lips_tn.HEIC in Resources */ = {isa = PBXBuildFile; fileRef = 90683B32268AD91600A034AD /* nyx_powderpuff_lips_tn.HEIC */; };
+		90683B6E268AD91800A034AD /* thisisforyou.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90683B33268AD91600A034AD /* thisisforyou.jpg */; };
+		90683B6F268AD91800A034AD /* framboise.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90683B34268AD91600A034AD /* framboise.jpg */; };
+		90683B70268AD91800A034AD /* eyeenhancingmascara_tn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90683B35268AD91600A034AD /* eyeenhancingmascara_tn.jpg */; };
+		90683B71268AD91800A034AD /* airvolume_mascara.HEIC in Resources */ = {isa = PBXBuildFile; fileRef = 90683B36268AD91600A034AD /* airvolume_mascara.HEIC */; };
+		90683B72268AD91800A034AD /* chasingrainbows.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90683B37268AD91600A034AD /* chasingrainbows.jpg */; };
+		90683B73268AD91800A034AD /* framboise_tn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90683B38268AD91600A034AD /* framboise_tn.jpg */; };
+		90683B74268AD91800A034AD /* nudeillusion_tn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90683B39268AD91700A034AD /* nudeillusion_tn.jpg */; };
+		90683B75268AD91800A034AD /* alverde_concealer_tn.HEIC in Resources */ = {isa = PBXBuildFile; fileRef = 90683B3A268AD91700A034AD /* alverde_concealer_tn.HEIC */; };
+		90683B76268AD91800A034AD /* mac_red_tn.HEIC in Resources */ = {isa = PBXBuildFile; fileRef = 90683B3B268AD91700A034AD /* mac_red_tn.HEIC */; };
+		90683B77268AD91800A034AD /* h2oproof_tn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90683B3C268AD91700A034AD /* h2oproof_tn.jpg */; };
+		90683B78268AD91800A034AD /* thirsty_tn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90683B3D268AD91700A034AD /* thirsty_tn.jpg */; };
+		90683B79268AD91800A034AD /* mac_red.HEIC in Resources */ = {isa = PBXBuildFile; fileRef = 90683B3E268AD91700A034AD /* mac_red.HEIC */; };
+		90683B7A268AD91800A034AD /* mac_concealer.HEIC in Resources */ = {isa = PBXBuildFile; fileRef = 90683B3F268AD91700A034AD /* mac_concealer.HEIC */; };
+		90683B7B268AD91800A034AD /* sculptandhilight_tn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90683B40268AD91700A034AD /* sculptandhilight_tn.jpg */; };
+		90683B7C268AD91800A034AD /* longlasting.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90683B41268AD91700A034AD /* longlasting.jpg */; };
+		90683B7D268AD91800A034AD /* sculptandhilight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90683B42268AD91700A034AD /* sculptandhilight.jpg */; };
+		90683B7E268AD91800A034AD /* thisisforyou_tn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90683B43268AD91800A034AD /* thisisforyou_tn.jpg */; };
+		90683B7F268AD91800A034AD /* h2oproof.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90683B44268AD91800A034AD /* h2oproof.jpg */; };
+		90683B80268AD91800A034AD /* volumestylist.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90683B45268AD91800A034AD /* volumestylist.jpg */; };
+		90683B81268AD91800A034AD /* ultrasatin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90683B46268AD91800A034AD /* ultrasatin.jpg */; };
+		90683B82268AD91800A034AD /* camoconcealer_tn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90683B47268AD91800A034AD /* camoconcealer_tn.jpg */; };
+		90683B83268AD91800A034AD /* mdmflow_tn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90683B48268AD91800A034AD /* mdmflow_tn.jpg */; };
+		90683B85268AE2B600A034AD /* products2.json in Resources */ = {isa = PBXBuildFile; fileRef = 90683B84268AE2B500A034AD /* products2.json */; };
+		90683B8C268B4D2100A034AD /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90683B8B268B4D2100A034AD /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7A03FEE3156D7A1CF8B4855A /* Pods-BeautyCase01.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeautyCase01.debug.xcconfig"; path = "Target Support Files/Pods-BeautyCase01/Pods-BeautyCase01.debug.xcconfig"; sourceTree = "<group>"; };
+		90683ABF268A402900A034AD /* BeautyCase01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeautyCase01.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90683AC2268A402900A034AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		90683AC4268A402900A034AD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		90683AC6268A402900A034AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		90683ACB268A403000A034AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90683ACE268A403000A034AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		90683AD0268A403000A034AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90683AD8268A475300A034AD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		90683ADA268A495B00A034AD /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		90683ADC268A496900A034AD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		90683ADE268A497A00A034AD /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		90683AE0268A4A1500A034AD /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		90683AE1268A4A1500A034AD /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		90683AE6268A4F8A00A034AD /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		90683AE7268A4F8A00A034AD /* ProductModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		90683AEA268A789000A034AD /* products.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = products.json; sourceTree = "<group>"; };
+		90683AEF268A7E3600A034AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		90683B0E268AD91100A034AD /* base.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = base.jpg; sourceTree = "<group>"; };
+		90683B0F268AD91100A034AD /* sol.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sol.jpg; sourceTree = "<group>"; };
+		90683B10268AD91100A034AD /* alverde_concealer.HEIC */ = {isa = PBXFileReference; lastKnownFileType = file; path = alverde_concealer.HEIC; sourceTree = "<group>"; };
+		90683B11268AD91100A034AD /* nudeillusion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nudeillusion.jpg; sourceTree = "<group>"; };
+		90683B12268AD91100A034AD /* eyeenhancingmascara.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eyeenhancingmascara.jpg; sourceTree = "<group>"; };
+		90683B13268AD91200A034AD /* lashplumping_tn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lashplumping_tn.jpg; sourceTree = "<group>"; };
+		90683B14268AD91200A034AD /* nofilterconceler_tn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nofilterconceler_tn.jpg; sourceTree = "<group>"; };
+		90683B15268AD91200A034AD /* base_tn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = base_tn.jpg; sourceTree = "<group>"; };
+		90683B16268AD91200A034AD /* nofilterpowder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nofilterpowder.jpg; sourceTree = "<group>"; };
+		90683B17268AD91200A034AD /* nyx_powderpuff_lips.HEIC */ = {isa = PBXFileReference; lastKnownFileType = file; path = nyx_powderpuff_lips.HEIC; sourceTree = "<group>"; };
+		90683B18268AD91200A034AD /* mac_concealer_tn.HEIC */ = {isa = PBXFileReference; lastKnownFileType = file; path = mac_concealer_tn.HEIC; sourceTree = "<group>"; };
+		90683B19268AD91300A034AD /* camoconcealer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = camoconcealer.jpg; sourceTree = "<group>"; };
+		90683B1A268AD91300A034AD /* chasingrainbows_tn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chasingrainbows_tn.jpg; sourceTree = "<group>"; };
+		90683B1B268AD91300A034AD /* sexypulp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sexypulp.jpg; sourceTree = "<group>"; };
+		90683B1C268AD91300A034AD /* fortune_tn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fortune_tn.jpg; sourceTree = "<group>"; };
+		90683B1D268AD91300A034AD /* volumestylist_tn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = volumestylist_tn.jpg; sourceTree = "<group>"; };
+		90683B1E268AD91400A034AD /* geleyepencil_tn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = geleyepencil_tn.jpg; sourceTree = "<group>"; };
+		90683B1F268AD91400A034AD /* instaperfect.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = instaperfect.jpg; sourceTree = "<group>"; };
+		90683B20268AD91400A034AD /* fortune.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fortune.jpg; sourceTree = "<group>"; };
+		90683B21268AD91400A034AD /* airvolume_mascara_tn.HEIC */ = {isa = PBXFileReference; lastKnownFileType = file; path = airvolume_mascara_tn.HEIC; sourceTree = "<group>"; };
+		90683B22268AD91400A034AD /* ultrasatin_tn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ultrasatin_tn.jpg; sourceTree = "<group>"; };
+		90683B23268AD91400A034AD /* nofilterconceler.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nofilterconceler.jpg; sourceTree = "<group>"; };
+		90683B24268AD91400A034AD /* benefit_eyeliner.HEIC */ = {isa = PBXFileReference; lastKnownFileType = file; path = benefit_eyeliner.HEIC; sourceTree = "<group>"; };
+		90683B25268AD91400A034AD /* mdmflow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mdmflow.jpg; sourceTree = "<group>"; };
+		90683B26268AD91400A034AD /* geleyepencil.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = geleyepencil.jpg; sourceTree = "<group>"; };
+		90683B27268AD91500A034AD /* sexypulp_tn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sexypulp_tn.jpg; sourceTree = "<group>"; };
+		90683B28268AD91500A034AD /* lashplumping.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lashplumping.jpg; sourceTree = "<group>"; };
+		90683B29268AD91500A034AD /* mar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mar.jpg; sourceTree = "<group>"; };
+		90683B2A268AD91500A034AD /* sol_tn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sol_tn.jpg; sourceTree = "<group>"; };
+		90683B2B268AD91500A034AD /* longlasting_tn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = longlasting_tn.jpg; sourceTree = "<group>"; };
+		90683B2C268AD91500A034AD /* mar_tn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mar_tn.jpg; sourceTree = "<group>"; };
+		90683B2D268AD91500A034AD /* Aok_powder.HEIC */ = {isa = PBXFileReference; lastKnownFileType = file; path = Aok_powder.HEIC; sourceTree = "<group>"; };
+		90683B2E268AD91500A034AD /* Aok_powder_tn.HEIC */ = {isa = PBXFileReference; lastKnownFileType = file; path = Aok_powder_tn.HEIC; sourceTree = "<group>"; };
+		90683B2F268AD91500A034AD /* benefit_eyeliner_tn.HEIC */ = {isa = PBXFileReference; lastKnownFileType = file; path = benefit_eyeliner_tn.HEIC; sourceTree = "<group>"; };
+		90683B30268AD91600A034AD /* nofilterpowder_tn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nofilterpowder_tn.jpg; sourceTree = "<group>"; };
+		90683B31268AD91600A034AD /* thirsty.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thirsty.jpg; sourceTree = "<group>"; };
+		90683B32268AD91600A034AD /* nyx_powderpuff_lips_tn.HEIC */ = {isa = PBXFileReference; lastKnownFileType = file; path = nyx_powderpuff_lips_tn.HEIC; sourceTree = "<group>"; };
+		90683B33268AD91600A034AD /* thisisforyou.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thisisforyou.jpg; sourceTree = "<group>"; };
+		90683B34268AD91600A034AD /* framboise.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = framboise.jpg; sourceTree = "<group>"; };
+		90683B35268AD91600A034AD /* eyeenhancingmascara_tn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eyeenhancingmascara_tn.jpg; sourceTree = "<group>"; };
+		90683B36268AD91600A034AD /* airvolume_mascara.HEIC */ = {isa = PBXFileReference; lastKnownFileType = file; path = airvolume_mascara.HEIC; sourceTree = "<group>"; };
+		90683B37268AD91600A034AD /* chasingrainbows.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chasingrainbows.jpg; sourceTree = "<group>"; };
+		90683B38268AD91600A034AD /* framboise_tn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = framboise_tn.jpg; sourceTree = "<group>"; };
+		90683B39268AD91700A034AD /* nudeillusion_tn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nudeillusion_tn.jpg; sourceTree = "<group>"; };
+		90683B3A268AD91700A034AD /* alverde_concealer_tn.HEIC */ = {isa = PBXFileReference; lastKnownFileType = file; path = alverde_concealer_tn.HEIC; sourceTree = "<group>"; };
+		90683B3B268AD91700A034AD /* mac_red_tn.HEIC */ = {isa = PBXFileReference; lastKnownFileType = file; path = mac_red_tn.HEIC; sourceTree = "<group>"; };
+		90683B3C268AD91700A034AD /* h2oproof_tn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h2oproof_tn.jpg; sourceTree = "<group>"; };
+		90683B3D268AD91700A034AD /* thirsty_tn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thirsty_tn.jpg; sourceTree = "<group>"; };
+		90683B3E268AD91700A034AD /* mac_red.HEIC */ = {isa = PBXFileReference; lastKnownFileType = file; path = mac_red.HEIC; sourceTree = "<group>"; };
+		90683B3F268AD91700A034AD /* mac_concealer.HEIC */ = {isa = PBXFileReference; lastKnownFileType = file; path = mac_concealer.HEIC; sourceTree = "<group>"; };
+		90683B40268AD91700A034AD /* sculptandhilight_tn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sculptandhilight_tn.jpg; sourceTree = "<group>"; };
+		90683B41268AD91700A034AD /* longlasting.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = longlasting.jpg; sourceTree = "<group>"; };
+		90683B42268AD91700A034AD /* sculptandhilight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sculptandhilight.jpg; sourceTree = "<group>"; };
+		90683B43268AD91800A034AD /* thisisforyou_tn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thisisforyou_tn.jpg; sourceTree = "<group>"; };
+		90683B44268AD91800A034AD /* h2oproof.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h2oproof.jpg; sourceTree = "<group>"; };
+		90683B45268AD91800A034AD /* volumestylist.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = volumestylist.jpg; sourceTree = "<group>"; };
+		90683B46268AD91800A034AD /* ultrasatin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ultrasatin.jpg; sourceTree = "<group>"; };
+		90683B47268AD91800A034AD /* camoconcealer_tn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = camoconcealer_tn.jpg; sourceTree = "<group>"; };
+		90683B48268AD91800A034AD /* mdmflow_tn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mdmflow_tn.jpg; sourceTree = "<group>"; };
+		90683B84268AE2B500A034AD /* products2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = products2.json; sourceTree = "<group>"; };
+		90683B8B268B4D2100A034AD /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		9916284C96502A27D873FC6C /* Pods-BeautyCase01.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeautyCase01.release.xcconfig"; path = "Target Support Files/Pods-BeautyCase01/Pods-BeautyCase01.release.xcconfig"; sourceTree = "<group>"; };
+		B5251A0303AC07B48AC60D70 /* Pods_BeautyCase01.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeautyCase01.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90683ABC268A402900A034AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CD377391B2401AC612BE46A /* Pods_BeautyCase01.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		277715FD5D6D7A9E7CFCD956 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5251A0303AC07B48AC60D70 /* Pods_BeautyCase01.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		69E439C025BD5BB5461ACC0C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A03FEE3156D7A1CF8B4855A /* Pods-BeautyCase01.debug.xcconfig */,
+				9916284C96502A27D873FC6C /* Pods-BeautyCase01.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		90683AB6268A402900A034AD = {
+			isa = PBXGroup;
+			children = (
+				90683AC1268A402900A034AD /* BeautyCase01 */,
+				90683AC0268A402900A034AD /* Products */,
+				69E439C025BD5BB5461ACC0C /* Pods */,
+				277715FD5D6D7A9E7CFCD956 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		90683AC0268A402900A034AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90683ABF268A402900A034AD /* BeautyCase01.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90683AC1268A402900A034AD /* BeautyCase01 */ = {
+			isa = PBXGroup;
+			children = (
+				90683AE1268A4A1500A034AD /* Constants.swift */,
+				90683AE6268A4F8A00A034AD /* Product.swift */,
+				90683B86268AEA2C00A034AD /* products */,
+				90683B0D268AD8C900A034AD /* images */,
+				90683AE7268A4F8A00A034AD /* ProductModel.swift */,
+				90683AE0268A4A1500A034AD /* Utilities.swift */,
+				90683AC2268A402900A034AD /* AppDelegate.swift */,
+				90683AC4268A402900A034AD /* SceneDelegate.swift */,
+				90683AC6268A402900A034AD /* ViewController.swift */,
+				90683ADA268A495B00A034AD /* SignUpViewController.swift */,
+				90683ADC268A496900A034AD /* LoginViewController.swift */,
+				90683ADE268A497A00A034AD /* HomeViewController.swift */,
+				90683AEE268A7E3500A034AD /* Main.storyboard */,
+				90683B8B268B4D2100A034AD /* DetailViewController.swift */,
+				90683ACB268A403000A034AD /* Assets.xcassets */,
+				90683ACD268A403000A034AD /* LaunchScreen.storyboard */,
+				90683AD8268A475300A034AD /* GoogleService-Info.plist */,
+				90683AD0268A403000A034AD /* Info.plist */,
+			);
+			path = BeautyCase01;
+			sourceTree = "<group>";
+		};
+		90683B0D268AD8C900A034AD /* images */ = {
+			isa = PBXGroup;
+			children = (
+				90683B21268AD91400A034AD /* airvolume_mascara_tn.HEIC */,
+				90683B36268AD91600A034AD /* airvolume_mascara.HEIC */,
+				90683B3A268AD91700A034AD /* alverde_concealer_tn.HEIC */,
+				90683B10268AD91100A034AD /* alverde_concealer.HEIC */,
+				90683B2E268AD91500A034AD /* Aok_powder_tn.HEIC */,
+				90683B2D268AD91500A034AD /* Aok_powder.HEIC */,
+				90683B15268AD91200A034AD /* base_tn.jpg */,
+				90683B0E268AD91100A034AD /* base.jpg */,
+				90683B2F268AD91500A034AD /* benefit_eyeliner_tn.HEIC */,
+				90683B24268AD91400A034AD /* benefit_eyeliner.HEIC */,
+				90683B47268AD91800A034AD /* camoconcealer_tn.jpg */,
+				90683B19268AD91300A034AD /* camoconcealer.jpg */,
+				90683B1A268AD91300A034AD /* chasingrainbows_tn.jpg */,
+				90683B37268AD91600A034AD /* chasingrainbows.jpg */,
+				90683B35268AD91600A034AD /* eyeenhancingmascara_tn.jpg */,
+				90683B12268AD91100A034AD /* eyeenhancingmascara.jpg */,
+				90683B1C268AD91300A034AD /* fortune_tn.jpg */,
+				90683B20268AD91400A034AD /* fortune.jpg */,
+				90683B38268AD91600A034AD /* framboise_tn.jpg */,
+				90683B34268AD91600A034AD /* framboise.jpg */,
+				90683B1E268AD91400A034AD /* geleyepencil_tn.jpg */,
+				90683B26268AD91400A034AD /* geleyepencil.jpg */,
+				90683B3C268AD91700A034AD /* h2oproof_tn.jpg */,
+				90683B44268AD91800A034AD /* h2oproof.jpg */,
+				90683B1F268AD91400A034AD /* instaperfect.jpg */,
+				90683B13268AD91200A034AD /* lashplumping_tn.jpg */,
+				90683B28268AD91500A034AD /* lashplumping.jpg */,
+				90683B2B268AD91500A034AD /* longlasting_tn.jpg */,
+				90683B41268AD91700A034AD /* longlasting.jpg */,
+				90683B18268AD91200A034AD /* mac_concealer_tn.HEIC */,
+				90683B3F268AD91700A034AD /* mac_concealer.HEIC */,
+				90683B3B268AD91700A034AD /* mac_red_tn.HEIC */,
+				90683B3E268AD91700A034AD /* mac_red.HEIC */,
+				90683B2C268AD91500A034AD /* mar_tn.jpg */,
+				90683B29268AD91500A034AD /* mar.jpg */,
+				90683B48268AD91800A034AD /* mdmflow_tn.jpg */,
+				90683B25268AD91400A034AD /* mdmflow.jpg */,
+				90683B14268AD91200A034AD /* nofilterconceler_tn.jpg */,
+				90683B23268AD91400A034AD /* nofilterconceler.jpg */,
+				90683B30268AD91600A034AD /* nofilterpowder_tn.jpg */,
+				90683B16268AD91200A034AD /* nofilterpowder.jpg */,
+				90683B39268AD91700A034AD /* nudeillusion_tn.jpg */,
+				90683B11268AD91100A034AD /* nudeillusion.jpg */,
+				90683B32268AD91600A034AD /* nyx_powderpuff_lips_tn.HEIC */,
+				90683B17268AD91200A034AD /* nyx_powderpuff_lips.HEIC */,
+				90683B40268AD91700A034AD /* sculptandhilight_tn.jpg */,
+				90683B42268AD91700A034AD /* sculptandhilight.jpg */,
+				90683B27268AD91500A034AD /* sexypulp_tn.jpg */,
+				90683B1B268AD91300A034AD /* sexypulp.jpg */,
+				90683B2A268AD91500A034AD /* sol_tn.jpg */,
+				90683B0F268AD91100A034AD /* sol.jpg */,
+				90683B3D268AD91700A034AD /* thirsty_tn.jpg */,
+				90683B31268AD91600A034AD /* thirsty.jpg */,
+				90683B43268AD91800A034AD /* thisisforyou_tn.jpg */,
+				90683B33268AD91600A034AD /* thisisforyou.jpg */,
+				90683B22268AD91400A034AD /* ultrasatin_tn.jpg */,
+				90683B46268AD91800A034AD /* ultrasatin.jpg */,
+				90683B1D268AD91300A034AD /* volumestylist_tn.jpg */,
+				90683B45268AD91800A034AD /* volumestylist.jpg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		90683B86268AEA2C00A034AD /* products */ = {
+			isa = PBXGroup;
+			children = (
+				90683AEA268A789000A034AD /* products.json */,
+				90683B84268AE2B500A034AD /* products2.json */,
+			);
+			path = products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90683ABE268A402900A034AD /* BeautyCase01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90683AD3268A403000A034AD /* Build configuration list for PBXNativeTarget "BeautyCase01" */;
+			buildPhases = (
+				63711B75D84A7C485F3DBD37 /* [CP] Check Pods Manifest.lock */,
+				90683ABB268A402900A034AD /* Sources */,
+				90683ABC268A402900A034AD /* Frameworks */,
+				90683ABD268A402900A034AD /* Resources */,
+				185D6A8B70EC5BCA290AF4B9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeautyCase01;
+			productName = BeautyCase01;
+			productReference = 90683ABF268A402900A034AD /* BeautyCase01.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90683AB7268A402900A034AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					90683ABE268A402900A034AD = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 90683ABA268A402900A034AD /* Build configuration list for PBXProject "BeautyCase01" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90683AB6268A402900A034AD;
+			productRefGroup = 90683AC0268A402900A034AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90683ABE268A402900A034AD /* BeautyCase01 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90683ABD268A402900A034AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90683B71268AD91800A034AD /* airvolume_mascara.HEIC in Resources */,
+				90683B5C268AD91800A034AD /* airvolume_mascara_tn.HEIC in Resources */,
+				90683B4C268AD91800A034AD /* nudeillusion.jpg in Resources */,
+				90683B4D268AD91800A034AD /* eyeenhancingmascara.jpg in Resources */,
+				90683B67268AD91800A034AD /* mar_tn.jpg in Resources */,
+				90683B69268AD91800A034AD /* Aok_powder_tn.HEIC in Resources */,
+				90683B79268AD91800A034AD /* mac_red.HEIC in Resources */,
+				90683B74268AD91800A034AD /* nudeillusion_tn.jpg in Resources */,
+				90683B5F268AD91800A034AD /* benefit_eyeliner.HEIC in Resources */,
+				90683B6E268AD91800A034AD /* thisisforyou.jpg in Resources */,
+				90683B65268AD91800A034AD /* sol_tn.jpg in Resources */,
+				90683B4E268AD91800A034AD /* lashplumping_tn.jpg in Resources */,
+				90683ACF268A403000A034AD /* LaunchScreen.storyboard in Resources */,
+				90683B5B268AD91800A034AD /* fortune.jpg in Resources */,
+				90683B4F268AD91800A034AD /* nofilterconceler_tn.jpg in Resources */,
+				90683B82268AD91800A034AD /* camoconcealer_tn.jpg in Resources */,
+				90683B62268AD91800A034AD /* sexypulp_tn.jpg in Resources */,
+				90683B7B268AD91800A034AD /* sculptandhilight_tn.jpg in Resources */,
+				90683B6B268AD91800A034AD /* nofilterpowder_tn.jpg in Resources */,
+				90683B7D268AD91800A034AD /* sculptandhilight.jpg in Resources */,
+				90683B5D268AD91800A034AD /* ultrasatin_tn.jpg in Resources */,
+				90683B54268AD91800A034AD /* camoconcealer.jpg in Resources */,
+				90683B64268AD91800A034AD /* mar.jpg in Resources */,
+				90683B85268AE2B600A034AD /* products2.json in Resources */,
+				90683B7A268AD91800A034AD /* mac_concealer.HEIC in Resources */,
+				90683B68268AD91800A034AD /* Aok_powder.HEIC in Resources */,
+				90683B72268AD91800A034AD /* chasingrainbows.jpg in Resources */,
+				90683B76268AD91800A034AD /* mac_red_tn.HEIC in Resources */,
+				90683B73268AD91800A034AD /* framboise_tn.jpg in Resources */,
+				90683B6A268AD91800A034AD /* benefit_eyeliner_tn.HEIC in Resources */,
+				90683B5A268AD91800A034AD /* instaperfect.jpg in Resources */,
+				90683B80268AD91800A034AD /* volumestylist.jpg in Resources */,
+				90683B52268AD91800A034AD /* nyx_powderpuff_lips.HEIC in Resources */,
+				90683B63268AD91800A034AD /* lashplumping.jpg in Resources */,
+				90683B55268AD91800A034AD /* chasingrainbows_tn.jpg in Resources */,
+				90683B56268AD91800A034AD /* sexypulp.jpg in Resources */,
+				90683AD9268A475400A034AD /* GoogleService-Info.plist in Resources */,
+				90683B7E268AD91800A034AD /* thisisforyou_tn.jpg in Resources */,
+				90683B6C268AD91800A034AD /* thirsty.jpg in Resources */,
+				90683B75268AD91800A034AD /* alverde_concealer_tn.HEIC in Resources */,
+				90683B66268AD91800A034AD /* longlasting_tn.jpg in Resources */,
+				90683B51268AD91800A034AD /* nofilterpowder.jpg in Resources */,
+				90683B7C268AD91800A034AD /* longlasting.jpg in Resources */,
+				90683B58268AD91800A034AD /* volumestylist_tn.jpg in Resources */,
+				90683B53268AD91800A034AD /* mac_concealer_tn.HEIC in Resources */,
+				90683AF0268A7E3600A034AD /* Main.storyboard in Resources */,
+				90683B61268AD91800A034AD /* geleyepencil.jpg in Resources */,
+				90683B78268AD91800A034AD /* thirsty_tn.jpg in Resources */,
+				90683B60268AD91800A034AD /* mdmflow.jpg in Resources */,
+				90683B4A268AD91800A034AD /* sol.jpg in Resources */,
+				90683B4B268AD91800A034AD /* alverde_concealer.HEIC in Resources */,
+				90683B59268AD91800A034AD /* geleyepencil_tn.jpg in Resources */,
+				90683AEB268A789100A034AD /* products.json in Resources */,
+				90683B6F268AD91800A034AD /* framboise.jpg in Resources */,
+				90683B81268AD91800A034AD /* ultrasatin.jpg in Resources */,
+				90683ACC268A403000A034AD /* Assets.xcassets in Resources */,
+				90683B70268AD91800A034AD /* eyeenhancingmascara_tn.jpg in Resources */,
+				90683B77268AD91800A034AD /* h2oproof_tn.jpg in Resources */,
+				90683B83268AD91800A034AD /* mdmflow_tn.jpg in Resources */,
+				90683B50268AD91800A034AD /* base_tn.jpg in Resources */,
+				90683B7F268AD91800A034AD /* h2oproof.jpg in Resources */,
+				90683B6D268AD91800A034AD /* nyx_powderpuff_lips_tn.HEIC in Resources */,
+				90683B5E268AD91800A034AD /* nofilterconceler.jpg in Resources */,
+				90683B57268AD91800A034AD /* fortune_tn.jpg in Resources */,
+				90683B49268AD91800A034AD /* base.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		185D6A8B70EC5BCA290AF4B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BeautyCase01/Pods-BeautyCase01-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BeautyCase01/Pods-BeautyCase01-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BeautyCase01/Pods-BeautyCase01-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63711B75D84A7C485F3DBD37 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BeautyCase01-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90683ABB268A402900A034AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90683B8C268B4D2100A034AD /* DetailViewController.swift in Sources */,
+				90683AC7268A402900A034AD /* ViewController.swift in Sources */,
+				90683AC3268A402900A034AD /* AppDelegate.swift in Sources */,
+				90683AE8268A4F8A00A034AD /* Product.swift in Sources */,
+				90683AE2268A4A1500A034AD /* Utilities.swift in Sources */,
+				90683ADB268A495B00A034AD /* SignUpViewController.swift in Sources */,
+				90683ADD268A496900A034AD /* LoginViewController.swift in Sources */,
+				90683AC5268A402900A034AD /* SceneDelegate.swift in Sources */,
+				90683ADF268A497A00A034AD /* HomeViewController.swift in Sources */,
+				90683AE3268A4A1500A034AD /* Constants.swift in Sources */,
+				90683AE9268A4F8A00A034AD /* ProductModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		90683ACD268A403000A034AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90683ACE268A403000A034AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		90683AEE268A7E3500A034AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90683AEF268A7E3600A034AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		90683AD1268A403000A034AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		90683AD2268A403000A034AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90683AD4268A403000A034AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A03FEE3156D7A1CF8B4855A /* Pods-BeautyCase01.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GM4H9CKQD2;
+				INFOPLIST_FILE = BeautyCase01/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fh.group8.BeautyCase01;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		90683AD5268A403000A034AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9916284C96502A27D873FC6C /* Pods-BeautyCase01.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GM4H9CKQD2;
+				INFOPLIST_FILE = BeautyCase01/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fh.group8.BeautyCase01;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90683ABA268A402900A034AD /* Build configuration list for PBXProject "BeautyCase01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90683AD1268A403000A034AD /* Debug */,
+				90683AD2268A403000A034AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90683AD3268A403000A034AD /* Build configuration list for PBXNativeTarget "BeautyCase01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90683AD4268A403000A034AD /* Debug */,
+				90683AD5268A403000A034AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90683AB7268A402900A034AD /* Project object */;
+}

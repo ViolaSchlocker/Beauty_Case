@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>656937267348-meau04v26hrircmigu0q98kf874kr581.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.656937267348-meau04v26hrircmigu0q98kf874kr581</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBLp_qRaCqeBc83K4KprgXnpTihQCaV0uk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>656937267348</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>fh.group8.BeautyCase01</string>
+	<key>PROJECT_ID</key>
+	<string>beauty-case-msd19</string>
+	<key>STORAGE_BUCKET</key>
+	<string>beauty-case-msd19.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:656937267348:ios:6f890424b46b4fc4da0481</string>
+</dict>
+</plist>
